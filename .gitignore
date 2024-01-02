@@ -20,6 +20,21 @@ yarn-error.log*
 ## each project setting
 ####################################################################
 
+#### react-ui-training
+####################################################################
+# dependencies
+react-ui-training/node_modules
+react-ui-training/.pnp
+.pnp.js
+
+# testing
+react-ui-training/coverage
+
+# production
+react-ui-training/build
+
+
+
 #### react-basic
 ####################################################################
 # dependencies
