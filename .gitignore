@@ -20,6 +20,28 @@ yarn-error.log*
 ## each project setting
 ####################################################################
 
+
+
+#### hackernews-app
+####################################################################
+# dependencies
+hackernews-app/node_modules
+hackernews-app/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+hackernews-app/coverage
+
+# next.js
+hackernews-app/.next/
+hackernews-app/out/
+
+# production
+hackernews-app/build
+
+
+
 #### react-ui-training
 ####################################################################
 # dependencies
