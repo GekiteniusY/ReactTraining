@@ -20,6 +20,22 @@ yarn-error.log*
 ## each project setting
 ####################################################################
 
+#### nextjs-blog
+####################################################################
+# dependencies
+nextjs-blog/node_modules
+nextjs-blog/.pnp
+.pnp.js
+
+# testing
+nextjs-blog/coverage
+
+# next.js
+nextjs-blog/.next/
+nextjs-blog/out/
+
+# production
+nextjs-blog/build
 
 
 #### hackernews-app
