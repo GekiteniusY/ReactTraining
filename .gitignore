@@ -21,6 +21,23 @@ yarn-error.log*
 ####################################################################
 
 
+#### react-tutorial-todo
+####################################################################
+# dependencies
+react-tutorial-todo/node_modules
+react-tutorial-todo/.pnp
+.pnp.js
+
+# testing
+react-tutorial-todo/coverage
+
+# production
+react-tutorial-todo/build
+
+
+
+
+
 #### hackernews-app
 ####################################################################
 # dependencies
