@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 ## common
-####################################################################
+################################################################################################
 # misc
 .DS_Store
 .env.local
@@ -18,11 +18,25 @@ yarn-error.log*
 
 
 ## each project setting
-####################################################################
+################################################################################################
+
+#### react-tutorial-todo-typescript
+################################################
+# dependencies
+react-tutorial-todo-typescript/node_modules
+react-tutorial-todo-typescript/.pnp
+.pnp.js
+
+# testing
+react-tutorial-todo-typescript/coverage
+
+# production
+react-tutorial-todo-typescript/build
+
 
 
 #### react-tutorial-todo
-####################################################################
+################################################
 # dependencies
 react-tutorial-todo/node_modules
 react-tutorial-todo/.pnp
@@ -39,7 +53,7 @@ react-tutorial-todo/build
 
 
 #### hackernews-app
-####################################################################
+################################################
 # dependencies
 hackernews-app/node_modules
 hackernews-app/.pnp
@@ -59,7 +73,7 @@ hackernews-app/build
 
 
 #### react-ui-training
-####################################################################
+################################################
 # dependencies
 react-ui-training/node_modules
 react-ui-training/.pnp
@@ -74,7 +88,7 @@ react-ui-training/build
 
 
 #### react-basic
-####################################################################
+################################################
 # dependencies
 react-basic/node_modules
 react-basic/.pnp
