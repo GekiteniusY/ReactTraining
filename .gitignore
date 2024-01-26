@@ -20,6 +20,29 @@ yarn-error.log*
 ## each project setting
 ################################################################################################
 
+#### template-supabase-starter
+################################################
+# dependencies
+template-supabase-starter/node_modules
+template-supabase-starter/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+template-supabase-starter/coverage
+
+# next.js
+template-supabase-starter/.next/
+template-supabase-starter/out/
+
+# production
+template-supabase-starter/build
+
+
+
+
+
+
 #### react-tutorial-todo-typescript
 ################################################
 # dependencies
