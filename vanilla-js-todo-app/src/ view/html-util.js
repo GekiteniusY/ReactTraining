@@ -19,9 +19,7 @@ export function htmlToElement(html) {
 
 /**
  * HTML文字列からDOM Nodeを作成して返すタグ関数
- * @param {*} strings
- * @param  {...any} values
- * @returns {Element}
+ * @return {Element}
  */
 export function element(strings, ...values) {
   const htmlString = strings.reduce((result, str, i) => {
@@ -37,12 +35,12 @@ export function element(strings, ...values) {
 
 /**
  * コンテナ要素の中身をbodyElementで上書きする
- * @param {*} bodyElement コンテナ要素の中身となる要素
- * @param {*} containerElement コンテナ要素
+ * @param {Element} bodyElement コンテナ要素の中身となる要素
+ * @param {Element} containerElement コンテナ要素
  */
 export function render(bodyElement, containerElement) {
   // containerElementの中身を空にする
   containerElement.innerHTML = "";
-  // containerelementの直下にbodyElementを追加する
+  // containerElementの直下にbodyElementを追加する
   containerElement.appendChild(bodyElement);
 }
