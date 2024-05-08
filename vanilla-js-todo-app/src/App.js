@@ -1,6 +1,5 @@
 // 謎に半角スペースが必要、、、
-import { element, render } from "./ view/html-util.js";
-// import { element, render } from "./view/html-util.js";
+import { element, render } from "./view/html-util.js";
 
 console.log("App.js: loaded");
 
